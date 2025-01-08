@@ -1,0 +1,39 @@
+name: Bug report
+description: Create a report to help us improve
+title: "[Bug]"
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Describe the bug**
+        A clear and concise description of what the bug is.
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+      description: Steps to reproduce the behavior:
+      placeholder: "1. Go to '...'\n2. Click on '....'\n3. Scroll down to '....'\n4. See error"
+  - type: textarea
+    attributes:
+      label: Expected behavior
+      description: A clear and concise description of what you expected to happen.
+  - type: textarea
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain your problem.
+  - type: input
+    attributes:
+      label: OS
+      description: e.g. Windows 11
+  - type: input
+    attributes:
+      label: Whale Client Version
+      description: e.g. 1.5.2
+  - type: input
+    attributes:
+      label: Launcher
+      description: e.g. SKLauncher
+  - type: textarea
+    attributes:
+      label: Additional context
+      description: Add any other context about the problem here.
