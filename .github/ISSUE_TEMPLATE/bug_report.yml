@@ -3,11 +3,10 @@ description: Create a report to help us improve
 title: "[Bug]"
 labels: ["bug"]
 body:
-  - type: markdown
+  - type: textarea
     attributes:
-      value: |
-        **Describe the bug**
-        A clear and concise description of what the bug is.
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
   - type: textarea
     attributes:
       label: Steps to reproduce
